@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>UF Direction Translation</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body>
+	
+	<!-- Content -->
+	<div id="wrapper">
+		
+		<!-- Language Select -->
+		<div id="select">
+			<select id="native-lang-drop" >
+				<option id="native-lang-drop-first" value="" selected>Choose Your Language</option>			
+			</select>
+
+			<select id="other-lang-drop" >
+					<option id="other-lang-drop-first" value="" selected>Choose Other Language</option>		
+				</select>
+		</div>
+		
+		<!-- Call for help -->
+		<p id="help">I need directions</p>
+		<!-- <div id="help-button-area">
+			<button id="help-button" type="button">Start translating</button>
+		</div> -->
+		<div id="help-button-area">
+			<button id="help-button" type="button">Start</button>
+		</div>
+		
+		<!-- Conversation -->
+		<div id="translations" class="conversation"></div>
+		<input id="conversation-text" class="conversation" type="text" name="conversation-text">
+		</form>
+		<div id="native-lang-area">
+			<button id="native-lang" class="conversation" type="button">Translate Native</button>
+		</div>
+		<div id="other-lang-area"> 
+			<button id="other-lang" class="conversation" type="button">Translate Other</button>
+		</div>
+
+		<!-- Survey button -->
+		<div id="survey">
+			<button id="survey-button" type="button">Go to survey</button>			
+		</div>
+		
+		<!-- Restart button -->
+		<div id="restart">
+			<button id="restart-button" type="button">Restart</button>			
+		</div>
+		
+		<!-- Map at UF -->
+		<embed id="map" src="https://campusmap.ufl.edu/#/index">
+	</div>
+
+		<script src="main.js"></script>
+</body>
+</html>
